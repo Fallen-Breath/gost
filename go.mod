@@ -10,6 +10,8 @@ require (
 	github.com/judwhite/go-svc v1.2.1
 )
 
+replace github.com/go-gost/x v0.7.11 => github.com/Fallen-Breath/gost-x v0.0.0-20251109090821-b2cc0628395b
+
 require (
 	github.com/alecthomas/units v0.0.0-20211218093645-b94a6e3cc137 // indirect
 	github.com/alessio/shellescape v1.4.1 // indirect
