@@ -27,7 +27,7 @@ RUN cd cmd/gost && \
 FROM alpine:3.22
 
 # add iptables for tun/tap
-RUN apk add --no-cache iptables
+RUN apk add --no-cache iptables tzdata
 
 WORKDIR /bin/
 
